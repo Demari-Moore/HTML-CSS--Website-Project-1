@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Brings Wealth</title>
+    <link rel="stylesheet" href="/CSS/styles.css">
+    <script src="https://kit.fontawesome.com/4989c3a663.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="navbar">
+        <h1><a href="/HTML/index.html" id="site-name">Health Brings Wealth</a> </h1>
+        <div class="site-intro">
+            <p>Back in 2017 I decided to stop eating junk food and only live on foods that are known to be healthy. I have since notice the changes, my body feels more energized haven't been Ill since I feel the difference in my bodily functions I think
+                more clearly, make better decisions and my brain is more active as a result. I believe that the world should be eating this way to live healthier and happier, hence why I decided to share my knowledge and experiences. Please Share and
+                Subscribe </p>
+        </div>
+    </header>
+
+    <nav class="navbar">
+        <ul class="navbar-container">
+            <li><a href="/HTML/index.html">Home</a></li>
+            <li><a href="/HTML/blog.html">Blog</a></li>
+            <li class="dropdown">
+                <a href="/HTML/index.html" class="dropdown-nav">Food</a>
+                <div class="dropdown-content">
+                    <a onclick="FoodCategory('Vegan')">Vegan</a>
+                    <a onclick="FoodCategory('Caribbean Inspired')">Caribbean Inspired</a>
+                    <a onclick="FoodCategory('Comfort Food')">Comfort Food</a>
+                </div>
+            </li>
+            <li><a href="/HTML/index.html">Juice</a></li>
+            <input id="search-box" type="text" placeholder="Search...">
+        </ul>
+    </nav>
+    <div id="recipe-category">
+        <h2 id="recipe-cat-title">Blog</h2>
+    </div>
+
+    <section id="latest-recipe" class="container recipe-section">
+        <div class="ingredients">
+            <div class="centered">
+                <h2>Spicy Peri Peri Garlic & Herb Vegan Dish</h2>
+                <img src="/IMAGES/peri-peri-vegan-dish.jpg" alt="Image">
+            </div>
+
+            <p>Hi everyone, I know it has been a while. This Covid-19/Corona/Rona/Ro-Ro virus has me living a little more relaxed than usual. Since I am stuck indoors due to the UK lock down/social-distancing/self-isolation/quarantine... I honestly don’t
+                know what to refer to these things as anymore. The anxiety that it has caused, has me just taking everything a day at a time, with not much motivation if I am entirely honest. <br> <br> As you UK viewers are aware, most fast food chains
+                are closed. Therefore, feeling for a ‘cheeky Nandos’ means either reminiscing on when you last had one, fantasising about next year when you MIGHT be able to go out again and dine there... OR getting creative and making your own. Luckily
+                for us, we had a sachet of Nandos rub, some peri peri salt and veggies that are reaching their use-by date. So I decided to be creative and treat ourselves to a DIY vegan Nandos Friday night dinner. <br> <br> I must say, the food turned
+                out really well, I am quite proud of myself. Therefore, it is only right that I sit and write the recipe. Plus it is a great way to come back to the blog... and jog my memory when I want to make this again. To be honest, in my defense
+                a lot of the things that I have made recently would require a food scale which I currently don’t have, and with the current climate... I am not entirely thrilled about heading out to get a replacement. So I am waiting on my 14 day delivery.
+                Can you believe that? What would usually arrive within 2 – 3 days is now taking 14! <br> <br> All negativity and complaining aside, this pandemic has shun a light on our lifestyles. It is sad and with all of what is going on, death tolls
+                rising and people losing loved ones to the virus, it is upsetting. However, it is forcing us to spend time with loved ones (for those of us who live with people). We are making healthier home cooked meals and fishing out recipes and remedies
+                to boost pour immune system naturally. A lot of us finally got time to rest and attend to the jobs around the house we have been putting off for so long. As well as reaching out to people who we haven’t been in contact with for a while.
+                Therefore, during all of this gloom and uncertainty, there is still gratitude to be expressed. <br> <br> So! Without further delay and to cheer you up after my mini philosophical moment, here is the recipe: <br> <br>
+
+            </p>
+            <h2 class="ingredients">Ingredients:</h2>
+            <ul class="ingredients">
+                <li>8 Medium to Large White Mushrooms</li>
+                <li>100g Spinach</li>
+                <li>650g Baby Potatoes</li>
+                <li>1 Small Carrot</li>
+                <li>3 Large Tbsp Vegan Butter</li>
+                <li>100 ml Coconut Milk (Or any plant milk you have if you don’t want the coconut flavour)</li>
+                <li>1 Tsp Vegetable Oil</li>
+                <li>1 Cube/Tbsp of Sofrito (I’ll explain in the instructions)</li>
+                <li>1.5 Tsp Italian Seasoning</li>
+                <li>1Tbsp Nandos Peri Peri Rub</li>
+                <li>1 Tsp Peri Peri Salt</li>
+                <li>Chill and Garlic seasoning to taste</li>
+                <li>Salt and Pepper to taste</li>
+            </ul>
+
+            <p> <b> Cooking Time: </b>-- 30 Minutes </p>
+            <p> <b> Preparation Time: </b>-- 10 – 15 Minutes </p>
+            <p> <b>Serves: </b> -- 2 People </p>
+
+            <!-- <span><p>Preparation Time: 10 – 15 Minutes </p></span>
+            <span><p>Serves: 2 People </p></span> -->
+        </div>
+
+    </section>
+
+    <script src="/JS/app.js"></script>
+    <div id="card-social">
+        <h2>Follow Me</h2>
+        <ul class="list-inline">
+            <li>
+                <a href="https://www.instagram.com/health_brings_wealth/?hl=en">
+                    <i class="fab fa-instagram-square"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://twitter.com/BringsHealth">
+                    <i class="fab fa-twitter-square"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.pinterest.co.uk/health2091/_created/">
+                    <i class="fab fa-pinterest"></i>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <footer>
+        &copy; 2021 Health Brings Wealth
+    </footer>
+</body>
+
+</html>
