@@ -144,7 +144,7 @@ nav li a:hover {
 
 .dropdown-content a:hover {
     background-color: #f44c14a9;
-    background-image: url(/IMAGES/leaf-img.png);
+    background-image: url(../IMAGES/leaf-img.png);
     background-repeat: no-repeat;
 }
 
